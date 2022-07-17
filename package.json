@@ -1,0 +1,29 @@
+{
+  "name": "typescript-node-base",
+  "version": "1.0.0",
+  "description": "a placeholder project for typescript, eslint, jest configurations",
+  "main": "src/app.ts",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rm -r dist",
+    "lint": "eslint .",
+    "start": "ts-node src/app.ts",
+    "test": "jest"
+  },
+  "author": "Eric Andrews <harbu88@hotmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "@types/jest": "^28.1.5",
+    "@types/node": "^18.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.30.6",
+    "@typescript-eslint/parser": "^5.30.6",
+    "eslint": "^8.19.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.1.3",
+    "jest-extended": "^3.0.1",
+    "ts-jest": "^28.0.6",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.7.4"
+  }
+}
